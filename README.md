@@ -2,15 +2,15 @@
 
 In this assignment, you will develop a simple HTTP/1.0 compliant web server in C# that can handle multiple connections. 
 Requirements:
-1.	Use the accompanying skeleton code that contains unit tests. Follow the directions in the files themselves – it's self-documenting.
-    1. You must modify RequestHandler.cs and WebServerMain.cs
-    1. You may add additional classes to your project
-    1. You MAY NOT edit or otherwise modify any of my code. I will check to make sure that it has not been tampered with. 
-    1. Do not edit the WebServerXUnitTests project at all. Just use it to run the tests.
-1.	Your web server must answer TCP requests on port 8080 (See the Constants.cs file)
-1.	Your web server must be able to handle Windows or Linux style path separators (See Constants and Program objects)
-1.	Your web server must comply with HTTP/1.0 requests: GET only! 
-1.	Your web server must be able to reply with standard HTTP codes:
+1. Use the accompanying skeleton code that contains unit tests. Follow the directions in the files themselves – it's self-documenting.
+   1. You must modify RequestHandler.cs and WebServerMain.cs
+   1. You may add additional classes to your project
+   1. You MAY NOT edit or otherwise modify any of my code. I will check to make sure that it has not been tampered with. 
+   1. Do not edit the WebServerXUnitTests project at all. Just use it to run the tests.
+1. Your web server must answer TCP requests on port 8080 (See the Constants.cs file)
+1. Your web server must be able to handle Windows or Linux style path separators (See Constants and Program objects)
+1. Your web server must comply with HTTP/1.0 requests: GET only! 
+1. Your web server must be able to reply with standard HTTP codes:
     1. 200 OK
     1. 400 Bad Requests
     1. 404 Not Found
